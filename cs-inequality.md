@@ -26,10 +26,10 @@ Using (2) in (1) we get,
 
 $$
 \begin{align*}
-    f(t)=\sum_{i=1}^n (a_i-tb_i)(\overline{a_i-tb_i}) \
-    =\sum_{i=1}^n (a_i-tb_i)(\overline{a_i}-\overline{t}\overline{b_i})\
-    =\sum_{i=1}^n \left(|a_i|^2-(a_i\overline{b_i}+\overline{a_i}b_i)t+|b_i|t^2\right)\
-    =\sum_{i=1}^n \left(|a_i|^2-Re(a_i\overline{b_i})t+|b_i|t^2\right)\
+    f(t)=\sum_{i=1}^n (a_i-tb_i)(\overline{a_i-tb_i}) \\
+    =\sum_{i=1}^n (a_i-tb_i)(\overline{a_i}-\overline{t}\overline{b_i})\\
+    =\sum_{i=1}^n \left(|a_i|^2-(a_i\overline{b_i}+\overline{a_i}b_i)t+|b_i|t^2\right)\\
+    =\sum_{i=1}^n \left(|a_i|^2-Re(a_i\overline{b_i})t+|b_i|t^2\right)\\
     =\sum_{i=1}^n |a_i|^2-2Re\left(\sum_{i=1}^na_i\overline{b_i}\right)t+\left(\sum_{i=1}^n|b_i|\right)t^2
 \end{align*}
 $$
